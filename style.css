@@ -1,9 +1,11 @@
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
-  border: 1px red solid !important;
+  /* border: 1px red solid !important; */
 }
 body {
-  background-image: url("/images/background.jpg");
+  background-image: url("images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -17,7 +19,7 @@ body {
 }
 
 #etchFrame {
-  background-image: url("/images/etch.png");
+  background-image: url("images/etch.png");
   display: flex;
   flex-direction: column;
   flex: 0 1 720px;
@@ -31,5 +33,13 @@ body {
   height: 539px;
   width: 539px;
   margin-top: 49px;
-  margin-left: 91px;
+  margin-left: 92px;
+}
+
+#etchScreen {
+  display: grid;
+}
+
+.square {
+  border: 1px lightgrey solid;
 }

@@ -29,7 +29,6 @@ body {
 
 #etchScreen {
   display: flex;
-  /* flex: 0 1 539px; */
   height: 539px;
   width: 539px;
   margin-top: 49px;
@@ -42,4 +41,8 @@ body {
 
 .square {
   border: 1px lightgrey solid;
+}
+
+.fill {
+  background-color: black;
 }
